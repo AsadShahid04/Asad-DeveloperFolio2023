@@ -91,7 +91,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "SQL",
       fontAwesomeClassname: "fas fa-database"
     },
     {
@@ -137,7 +137,9 @@ const educationInfo = {
       subHeader: "Dual-Enrolled Student",
       duration: "June 2020 - December 2022",
       desc: "Attended San Joquin Delta College while dual-enrolled in MHHS as a highschooler to finish general education requirements.",
-      descBullets: ["Completed/in the process of completing the following courses: HIST17A, PHYSC1A, SOCIO1A, CS11, MATH 1, MATH 2, ENG1A, ENG 1B"]
+      descBullets: [
+        "Completed/in the process of completing the following courses: HIST17A, PHYSC1A, SOCIO1A, CS11, MATH 1, MATH 2, ENG1A, ENG 1B"
+      ]
     }
   ]
 };
@@ -163,7 +165,6 @@ const techStack = {
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
-
 // Work experience section
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
@@ -182,9 +183,13 @@ const workExperiences = {
     {
       role: "Marketing Research Intern",
       company: "Grotabyte",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      companylogo: require("./assets/images/GrotabyteLogo.jpeg"),
       date: "March 2021 – Nov 2021",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      descBullets: [
+        "Conducted research for technical use cases of our archive storage software",
+        "Looked into country legislation regarding consumer privacy",
+        "Highlighted comparative differences between competitors’ websites and features to help in the future development of the Grotabyte website."
+      ]
     },
     {
       role: "Marketing Director",
@@ -246,34 +251,21 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Scholar Athlete of the Year - 2022",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
+        "Was awarded the Western Athlete Conference Scholar Athlete of the Year for my sportsmanship within the Varsity Boys Tennis team at MHHS",
+      image: require("./assets/images/ScholarAthleteAwardAsad.jpeg"),
+      footerLink: []
     },
     {
-      title: "Google Assistant Action",
+      title: "Introduction to SQL",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Successfully completed the Introduction to SQL course on CodeHS. I learned concepts such as basic querying, filtering queries, advanced filters, ordering results, joining tables, and also various SQL functions. ",
+      image: require("./assets/images/SQL_ICON_CODEHS.png"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View Certificate",
+          url: "https://codehs.com/certificate/PphVy9"
         }
       ]
     },
