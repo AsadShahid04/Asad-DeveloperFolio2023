@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1uMdXmWNrxRxlO-IVDDFGt_ymf08lACgKd58uDJ81Fy4/edit?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -254,7 +254,7 @@ const achievementSection = {
       title: "Scholar Athlete of the Year - 2022",
       subtitle:
         "Was awarded the Western Athlete Conference Scholar Athlete of the Year for my sportsmanship within the Varsity Boys Tennis team at MHHS",
-      image: require("./assets/images/ScholarAthleteAwardAsad.jpeg"),
+      image: require("/Users/asadshahid/CodingFiles/Asad-DeveloperFolio/src/assets/images/ScholarAthleteAwardAsad.jpeg"),
       footerLink: []
     },
     {
