@@ -345,14 +345,14 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "(408)-430-2623",
+  //number: "(408)-430-2623",
   email_address: "asadshahid623@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "elonmusk", //Replace "twitter" with your twitter username without @
+  userName: "a1sadshahid", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
