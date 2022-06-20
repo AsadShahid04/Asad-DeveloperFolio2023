@@ -254,7 +254,7 @@ const achievementSection = {
       title: "Scholar Athlete of the Year - 2022",
       subtitle:
         "Was awarded the Western Athlete Conference Scholar Athlete of the Year for my sportsmanship within the Varsity Boys Tennis team at MHHS",
-      image: require("/Users/asadshahid/CodingFiles/Asad-DeveloperFolio/src/assets/images/ScholarAthleteAwardAsad.jpeg"),
+      image: require("/Users/asadshahid/CodingFiles/Asad-DeveloperFolio/src/assets/images/ScholarAthleteAward.jpeg"),
       footerLink: []
     },
     {
@@ -271,15 +271,11 @@ const achievementSection = {
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Golden State Seal of Merit Award Winner",
+      subtitle:
+        "The Golden State Seal Merit Diploma is given to seniors who have demonstrated mastery of the high school curriculum in at least six subject areas four of which are English-language arts, mathematics, science, and U.S. history, with the remaining two subject matter areas selected by the student. The seal is awarded jointly by the State Board of Education and the State Superintendent of Public Instruction.",
+      image: require("./assets/images/GoldenStateSealofMerit.png"),
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
       ]
     }
   ],
