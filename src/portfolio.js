@@ -23,10 +23,10 @@ const greeting = {
   username: "Asad Shahid",
   title: "Hi all, I'm Asad",
   subTitle: emoji(
-    "A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Software Developer having an experience of building Web and Mobile applications along with developing & applying state of the art Machine Learning models!"
   ),
   resumeLink:
-    "https://docs.google.com/document/d/1uMdXmWNrxRxlO-IVDDFGt_ymf08lACgKd58uDJ81Fy4/edit?usp=sharing", // Set to empty to hide the button
+    "https://docs.google.com/document/d/10Rrbhk_uqKamrbSo1bK_Dt26UIjGTlQo/edit?usp=sharing&ouid=111821426187858764882&rtpof=true&sd=true", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -51,14 +51,14 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I know...",
   subTitle:
-    "CRAZY FRONT END DEVELOPER & CODER LOOKING TO EXPLORE EVERY TECH STACK",
+    "CRAZY MACHINE LEARNING ENGINEER & CODER LOOKING TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "→ Develop interactive Front end / User Interfaces for web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("→ Create, test, and deploy robust pre-trained Machine Learning models"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "→ Control and manage cloud infrastructure using Terraform and Aviatrix"
     )
   ],
 
@@ -79,7 +79,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "reactjs",
+      skillName: "React",
       fontAwesomeClassname: "fab fa-react"
     },
     {
@@ -95,6 +95,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fa-brands fa-square-js"
+    },
+    {
       skillName: "Android Studio",
       fontAwesomeClassname: "fab fa-android"
     },
@@ -107,8 +111,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-python"
     },
     {
+      skillName: "C/C++",
+      fontAwesomeClassname: "fab fa-c"
+    },
+    {
       skillName: "git",
       fontAwesomeClassname: "fab fa-github"
+    },
+    {
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws"
     },
     {
       skillName: "Confluence",
@@ -124,21 +136,15 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Las Positas Community College",
-      logo: require("./assets/images/LasPositasCollege.jpeg"),
-      subHeader: "Major: Computer Science",
+      schoolName: "Las Positas College",
+      logo: require("/Users/asadshahid/CodingFiles/Asad-DeveloperFolio/src/assets/images/LasPositasCollege.jpeg"),
+      subHeader: "Associate of Science, Computer Science (AS)",
       duration: "June 2022 - May 2024",
-      desc: "Currently attending Las Positas to finish general education requirements before transfering to UC Davis in the Fall of 2024 for a BS in Computer Science & Engineering.",
-      descBullets: ["Member of Muslim Student Association"]
-    },
-    {
-      schoolName: "San Joaquin Delta College",
-      logo: require("./assets/images/SanJoaquinDeltaCollege.jpeg"),
-      subHeader: "Dual-Enrolled Student",
-      duration: "June 2020 - December 2022",
-      desc: "Attended San Joquin Delta College while dual-enrolled in MHHS as a highschooler to finish general education requirements.",
+      //desc: "Currently attending Las Positas to finish general education requirements before transfering to UC Davis in the Fall of 2024 for a BS in Computer Science & Engineering.",
       descBullets: [
-        "Completed/in the process of completing the following courses: HIST17A, PHYSC1A, SOCIO1A, CS11, MATH 1, MATH 2, ENG1A, ENG 1B"
+        "Member of Muslim Student Association",
+        "ICC Representative of Computer Science Club",
+        "Awarded the Math, Computer Science, and Engineering Scholarship"
       ]
     }
   ]
@@ -170,14 +176,37 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Software Engineer Intern",
+      company: "Sadiq",
+      companylogo: require("/Users/asadshahid/CodingFiles/Asad-DeveloperFolio/src/assets/images/SadiqWhiteTransparent.png"),
+      date: "April 2023 – Present",
+      //desc: "Sadiq aims to empower buyers, sellers, and their communities, focused on building a safe, trusted, and technologically advanced platform that enables a new era of commerce. We are disrupting traditional experiences, opening a gateway to optimal user engagement and personalized shopping through state-of-the-art (SOTA) algorithms developed by Sadiq's AI Applied Research Team. We are a diverse team of moonshot thinkers and creative problem solvers with experience in e-commerce and technology development, working to evolve the latest happenings in global social commerce.",
+      descBullets: [
+        "Collaborate with the Machine Learning Engineering team to research, develop, and test advanced models for enhancing the functionality of the Sadiq platform.",
+        "Stay updated on industry trends and technologies to continuously enhance technical expertise.",
+        "Actively contribute to team activities, fostering a collaborative and innovative work environment that drives forward-thinking solutions."
+      ]
+    },
+    {
+      role: "Product Manager/Machine Learning Engineer - Incubator Program",
+      company: "AI Camp",
+      companylogo: require("/Users/asadshahid/CodingFiles/Asad-DeveloperFolio/src/assets/images/AICamp.jpeg"),
+      date: "September 2022 – November 2022",
+      //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+        "Played a leadership role in the team by helping maintain the focus of the group, creating and assigning individual tasks to team members to ensure high-quality, on-time deliverables",
+        "Used Expo.dev and React to create a mobile application that uses models hosted on Roboflow to detect and alert officials about unlit and venting flares within oil & gas extraction operation plants"
+      ]
+    },
+    {
       role: "Website Developer",
       company: "Mountain House Muslim Association",
       companylogo: require("./assets/images/MHMALogo.png"),
-      date: "October 2021 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      date: "October 2021 – March 2022",
+      //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed a full-stack website application using React and MongoDB for Mountain House Muslim Association, serving 1,000+ community members.",
+        "Thoroughly tested and debugged the website application using industry-standard tools like Jira and Confluence, efficiently tracking, resolving, and documenting issues to ensure a reliable and error-free user experience."
       ]
     },
     {
@@ -205,35 +234,53 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "TECH SOLUTIONS I HELPED IGNITE:",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("/Users/asadshahid/CodingFiles/Asad-DeveloperFolio/src/assets/images/ProjectFireStartLogo.png"),
+      projectName: "Project Firestart",
+      projectDesc:
+        "A React application which calls a Roboflow-hosted AI model to classify flare images, utilizing the Twilio API to notify the user's entered phone number if an unlit flare is detected.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Watch Live Demo",
+          url: "https://www.youtube.com/watch?v=Ts2MYXkeRdw&ab_channel=ArhantChoudhary"
+        },
+        {
+          name: "View Repository",
+          url: "https://github.com/organization-x/project-firestart"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("/Users/asadshahid/CodingFiles/Asad-DeveloperFolio/src/assets/images/parallelprocessingLogo.png"),
+      projectName: "Detecting Financial Fraud Cases",
+      projectDesc:
+        "Together, my team and I created multiple machine-learning models using Scikit-learn to detect financial frauds that happened across multiple countries/states. We were able to create our own website using Bootstrap, HTML, CSS, and Flask, that details our findings, exploratory data analysis using Pandas, Matplotlib, Numpy, and Seaborn , and descriptions of how each learning model works.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://asadshahid04.github.io/FinalParallelProcessingWebsite/index.html?"
+        }
+      ]
+    },
+    {
+      image: require("/Users/asadshahid/CodingFiles/Asad-DeveloperFolio/src/assets/images/BioLockAppLogo.png"),
+      projectName: "Bio Lock",
+      projectDesc:
+        "Led a team in the successful development of an Android app for our Computer Science capstone project, implementing robust biometric authentication to secure select apps. Leveraged Android Studio, SDK, and authentication libraries to create a user-friendly and secure solution.",
+      footerLink: [
+        {
+          name: "View Repository",
+          url: "https://github.com/AsadShahid04/BioLock_Updated"
         }
       ]
     }
@@ -245,17 +292,84 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Achievements And Certifications"),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements, Certifications, and Some Cool Stuff that I have done!",
 
   achievementsCards: [
     {
-      title: "Scholar Athlete of the Year - 2022",
+      title: "Getting Started with Terraform for Google Cloud",
       subtitle:
-        "Was awarded the Western Athlete Conference Scholar Athlete of the Year for my sportsmanship within the Varsity Boys Tennis team at MHHS",
-      image: require("/Users/asadshahid/CodingFiles/Asad-DeveloperFolio/src/assets/images/ScholarAthleteAward.jpeg"),
-      footerLink: []
+        "The Getting Started with Terraform for Google Cloud certification equipped me with the essential knowledge and skills to effectively use Terraform for provisioning and managing infrastructure on Google Cloud, including writing configurations, creating resources, utilizing modules and variables, and applying infrastructure as code principles.",
+      image: require("/Users/asadshahid/CodingFiles/Asad-DeveloperFolio/src/assets/images/cloud-twitter-avatar.png"),
+      footerLink: [
+        {
+          name: "Certificate Pending",
+          url: "https://www.coursera.org/learn/getting-started-with-terraform-for-google-cloud/home/module/1"
+        }
+      ]
+    },
+    {
+      title:
+        "Aviatrix Certified Engineer Multicloud Network Automation Specialty (IaC)",
+      subtitle:
+        "This certificate equipped me with comprehensive knowledge and practical skills in automating infrastructure using Aviatrix. I learned how to programmatically deploy and manage network resources, automate complex configurations, and enhance scalability and resilience. This certification enables me to efficiently design, deploy, and manage infrastructure using Aviatrix's IaC capabilities.",
+      image: require("/Users/asadshahid/CodingFiles/Asad-DeveloperFolio/src/assets/images/ACEIaC.png"),
+      footerLink: [
+        {
+          name: "Certificate Pending",
+          url: "https://www.credly.com/org/aviatrix/badge/multicloud-network-automation-specialty"
+        }
+      ]
+    },
+    {
+      title:
+        "Aviatrix Certified Engineer Multicloud Network Associate Training",
+      subtitle:
+        "This training equipped me with comprehensive knowledge and skills in multicloud network engineering, including designing secure and scalable networks, optimizing performance, implementing advanced networking features, and troubleshooting network issues in complex multicloud environments using the Aviatrix platform.",
+      image: require("/Users/asadshahid/CodingFiles/Asad-DeveloperFolio/src/assets/images/ACE_Associate.png"),
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://verify.skilljar.com/c/3myuwn9onjc8"
+        }
+      ]
+    },
+    {
+      title: "Introduction to Cloud Computing",
+      subtitle:
+        "This course has equipped me with a comprehensive understanding of cloud computing, including its characteristics, history, business case, emerging technologies, service models, deployment models, infrastructure components, trends, and popular cloud platforms.",
+      image: require("/Users/asadshahid/CodingFiles/Asad-DeveloperFolio/src/assets/images/Dev_Skills_Network_-_Cloud_Computing_Core.png"),
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://www.coursera.org/account/accomplishments/verify/PHP7UT37Z2SN?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
+        }
+      ]
+    },
+    {
+      title: "Introduction to Git and GitHub",
+      subtitle:
+        "This course has taught me the importance of version control for coding and collaboration. I have learned to install and run Git on my local machine, effectively use and interact with GitHub, and collaborate with others through remote repositories. I have also gained skills in using Git, version control systems, interacting with GitHub, reverting changes, and creating pull requests.",
+      image: require("/Users/asadshahid/CodingFiles/Asad-DeveloperFolio/src/assets/images/GitImage.png"),
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://www.coursera.org/account/accomplishments/verify/8CWK8K997SEP?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course"
+        }
+      ]
+    },
+    {
+      title: "Machine Learning with Python",
+      subtitle:
+        "Certified by FreeCodeCamp, I learned concepts such as data analysis, data visualization, machine learning, and natural language processing.",
+      image: require("/Users/asadshahid/CodingFiles/Asad-DeveloperFolio/src/assets/images/MLwithPythonCertImage.png"),
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://freecodecamp.org/certification/fccf41112cd-bc83-44bf-b418-1e2a55f111bc/machine-learning-with-python-v7"
+        }
+      ]
     },
     {
       title: "Introduction to SQL",
@@ -269,14 +383,12 @@ const achievementSection = {
         }
       ]
     },
-
     {
       title: "Golden State Seal of Merit Award Winner",
       subtitle:
         "The Golden State Seal Merit Diploma is given to seniors who have demonstrated mastery of the high school curriculum in at least six subject areas four of which are English-language arts, mathematics, science, and U.S. history, with the remaining two subject matter areas selected by the student. The seal is awarded jointly by the State Board of Education and the State Superintendent of Public Instruction.",
       image: require("./assets/images/GoldenStateSealofMerit.png"),
-      footerLink: [
-      ]
+      footerLink: []
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -338,7 +450,7 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me!"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   //number: "(408)-430-2623",
@@ -349,7 +461,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "a1sadshahid", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
